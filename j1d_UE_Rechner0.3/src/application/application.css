@@ -1,0 +1,13 @@
+
+.root{
+	-fx-background-color: darkgray  ;
+}
+
+.button{
+	-fx-background-color: darkblue ;
+	-fx-text-fill: lightblue  ;
+	-fx-font-size: 24px; 
+}
+.text-field{
+	-fx-font-size: 18px; 
+}

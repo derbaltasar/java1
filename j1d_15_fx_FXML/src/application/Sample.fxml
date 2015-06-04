@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="14.0" layoutY="14.0" promptText="Vorname" />
+      <TextField layoutX="183.0" layoutY="14.0" promptText="Nachname" />
+      <Button layoutX="376.0" layoutY="14.0" mnemonicParsing="false" text="Senden" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Users/Public/Pictures/Sample%20Pictures/Desert.jpg" />
+         </image></ImageView>
+      <Button layoutX="365.0" layoutY="132.0" mnemonicParsing="false" text="Button" />
+      <TextArea editable="false" layoutX="304.0" layoutY="186.0" prefHeight="200.0" prefWidth="200.0" text="trujfgutgkjmvhfvhgfhgfdhfghgfhgdghfghgfhfghjfgf" wrapText="true" />
+   
+   </children>
+</AnchorPane>

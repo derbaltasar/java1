@@ -1,5 +1,10 @@
 package app;
 
+
+/*
+ * Benutzen von Klassen:
+ * Instanzen von Objekten erzeugen
+ */
 public class Main {
 
     public static void main(String[] args) {

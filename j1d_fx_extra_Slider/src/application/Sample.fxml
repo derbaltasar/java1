@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.collections.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Slider fx:id="slider1" layoutX="61.0" layoutY="216.0" orientation="VERTICAL" />
+      <Slider fx:id="slider3" layoutX="199.0" layoutY="35.0" />
+      <Slider fx:id="slider2" layoutX="124.0" layoutY="216.0" orientation="VERTICAL" />
+      <Slider fx:id="slider4" layoutX="199.0" layoutY="80.0" />
+      <Label fx:id="label1" layoutX="38.0" layoutY="158.0" prefHeight="50.0" prefWidth="50.0">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+      <Label fx:id="label2" layoutX="107.0" layoutY="157.0" prefHeight="50.0" prefWidth="50.0">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+      <Label fx:id="label3" layoutX="356.0" layoutY="18.0" prefHeight="50.0" prefWidth="50.0">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+      <Label fx:id="label4" layoutX="356.0" layoutY="63.0" prefHeight="50.0" prefWidth="50.0">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+      <ComboBox fx:id="combo" layoutX="339.0" layoutY="216.0" onAction="#comboaction" prefWidth="150.0">
+       <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+      </ComboBox>
+      <Pane layoutY="35.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

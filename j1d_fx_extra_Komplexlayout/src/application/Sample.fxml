@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <ScrollPane prefViewportHeight="400.0" prefViewportWidth="600.0">
+         <content>
+            <VBox prefHeight="398.0" prefWidth="596.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="162.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Button" />
+                        <Button mnemonicParsing="false" text="Button" />
+                        <Button mnemonicParsing="false" text="Button" />
+                        <AnchorPane prefHeight="100.0" prefWidth="438.0">
+                           <children>
+                              <TextField layoutX="14.0" layoutY="14.0" />
+                              <TextField layoutX="175.0" layoutY="14.0" prefHeight="25.0" prefWidth="243.0" />
+                              <TextField layoutX="14.0" layoutY="61.0" />
+                              <TextField layoutX="175.0" layoutY="61.0" prefHeight="25.0" prefWidth="244.0" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="123.0" prefWidth="596.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Button" />
+                        <Button mnemonicParsing="false" text="Button" />
+                        <Button mnemonicParsing="false" text="Button" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <TabPane prefHeight="100.0" prefWidth="297.0" tabClosingPolicy="UNAVAILABLE">
+                          <tabs>
+                              <Tab text="Untitled Tab 1">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="171.0" prefWidth="345.0" />
+                                 </content>
+                              </Tab>
+                            <Tab text="Untitled Tab 1">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                              </content>
+                            </Tab>
+                            <Tab text="Untitled Tab 2">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                              </content>
+                            </Tab>
+                              <Tab text="Untitled Tab 1">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="171.0" prefWidth="348.0" />
+                                 </content>
+                              </Tab>
+                          </tabs>
+                        </TabPane>
+                        <SVGPath content="M 10 100 L 300 100 L 200 300 z" fill="#c61212" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </center>
+</BorderPane>

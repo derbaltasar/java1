@@ -15,7 +15,6 @@ public class Hello {
 	 */
 	public  void methode1(){
 		System.out.println("methode1...");
-		
 	}
 	
 		

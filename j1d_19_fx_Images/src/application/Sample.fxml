@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ScrollPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+	<children>
+      <ScrollPane layoutX="154.82302856445312" layoutY="155.7208251953125" prefViewportHeight="205.808349609375" prefViewportWidth="207.35394287109375">
+         <content>
+      		<ImageView fx:id="imgView" fitHeight="133.0" fitWidth="167.0" layoutX="170.0" layoutY="191.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" rotate="-136.5" scaleZ="5.0" translateX="5.0" translateY="5.0" />
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="48.0" layoutY="62.0" prefViewportHeight="68.0" prefViewportWidth="90.66665649414062">
+         <content>
+      	
+      		<ImageView fitHeight="68.0" fitWidth="127.0" layoutX="48.0" layoutY="62.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/Penguins.jpg" />
+      			</image>
+      		</ImageView>
+         </content>
+      </ScrollPane>
+
+		<ImageView fitHeight="146.0" fitWidth="207.0" layoutX="346.0" layoutY="54.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../img/Penguins.jpg" />
+			</image>
+		</ImageView>
+      <Button layoutX="34.0" layoutY="247.0" mnemonicParsing="false" onAction="#setImage" text="Button" />
+	</children>
+</AnchorPane>

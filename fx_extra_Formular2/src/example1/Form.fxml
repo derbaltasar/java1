@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<StackPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example1.FormController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+      
+      	<children>
+      		<VBox layoutX="75.0" layoutY="38.0" prefHeight="37.0" prefWidth="100.0">
+               <children>
+                  <RadioButton mnemonicParsing="false" text="Kunde">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="kundenTyp" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton mnemonicParsing="false" text="neuer Kunde" toggleGroup="$kundenTyp" />
+               </children>
+      		</VBox>
+      		<Button layoutX="330.0" layoutY="265.0" mnemonicParsing="false" onAction="#action" text="Button" />
+            <TilePane hgap="10.0" layoutX="75.0" layoutY="100.0" prefHeight="108.0" prefWidth="327.0" vgap="5.0">
+               <children>
+                  <Label text="Vorname" TilePane.alignment="CENTER_LEFT" />
+                  <TextField fx:id="tfVorname" />
+                  <Label text="Nachname" TilePane.alignment="CENTER_LEFT" />
+                  <TextField fx:id="tfNachname" />
+                  <CheckBox fx:id="checkAGB" mnemonicParsing="false" prefHeight="17.0" prefWidth="109.0" text="AGB gelesen?" />
+               </children>
+            </TilePane>
+      	</children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,13 @@
+.root{
+	-fx-background-color: darkgray; 
+	
+}
+.calc_button{
+	-fx-background-color: darkblue  ;
+	-fx-font-size:  1.5em;
+	-fx-text-fill: lightblue; 
+}
+
+.text-field{
+	-fx-font-size:  2em;
+}
